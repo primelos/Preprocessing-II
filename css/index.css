@@ -162,6 +162,7 @@ p {
 img {
   max-width: 100%;
   height: auto;
+  padding-bottom: 28px;
 }
 .container {
   max-width: 800px;
@@ -176,6 +177,19 @@ img {
   width: 89%;
   margin: auto;
 }
+@media mobile {
+  .topHead .topHead {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .topHead nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
 .topHead a {
   padding-left: 25px;
   font-size: 2rem;
@@ -183,6 +197,19 @@ img {
 .line {
   border-bottom: 2px dashed #C0C0C0;
   width: 100%;
+}
+@media mobile {
+  .topHead {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
 }
 .footer {
   width: 100%;
@@ -232,6 +259,7 @@ img {
 .home .content-destination img {
   border-radius: 10px;
   padding-top: 21px;
+  padding-bottom: 28px;
 }
 .home .content-pick {
   padding-top: 30px;
@@ -251,4 +279,13 @@ section,
 .content-section {
   width: 89%;
   margin: auto;
+}
+button {
+  background-color: #17A2B8;
+  color: white;
+  font-size: 2rem;
+  width: 170px;
+  border-radius: 10px;
+  margin: 0 10px 20px;
+  height: 45px;
 }
