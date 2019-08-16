@@ -1,15 +1,11 @@
 .home {
   @media @mobile {
     .contentWelcome {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
-      .dashedLine()
+      .flexing();
+      .dashedLine();
     }
     #sect2 {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
+      .flexing();
 
       align-content: center;
 
@@ -34,9 +30,7 @@
       }
     }
     #sect4 {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
+      .flexing();
       width: 100%;
       align-content: center;
       padding: 10px;
@@ -44,9 +38,7 @@
     }
 
     #pick {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
+      .flexing();
       align-content: center;
 
       .destination {
@@ -72,8 +64,9 @@
 
     .img-content {
       width: 48%;
-      padding-left: 1%;
+     
       .topPad();
+      border-radius: 10px;
 
       img {
         border-radius: 10px;

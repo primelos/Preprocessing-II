@@ -162,7 +162,7 @@ p {
 img {
   max-width: 100%;
   height: auto;
-  padding-bottom: 28px;
+  margin-bottom: 28px;
 }
 .container {
   max-width: 800px;
@@ -267,12 +267,12 @@ img {
 }
 .home .content-section .text-content {
   width: 48%;
-  padding-top: 21px;
+  margin-top: 20px;
 }
 .home .content-section .img-content {
   width: 48%;
-  padding-left: 1%;
-  padding-top: 21px;
+  margin-top: 20px;
+  border-radius: 10px;
 }
 .home .content-section .img-content img {
   border-radius: 10px;
@@ -292,11 +292,11 @@ img {
 .home .content-destination {
   width: 75%;
   margin: 0 auto 30px;
-  padding-top: 21px;
+  margin-top: 20px;
 }
 .home .content-destination img {
   border-radius: 10px;
-  padding-top: 21px;
+  margin-top: 20px;
 }
 .home .content-pick {
   padding-top: 30px;
