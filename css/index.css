@@ -177,19 +177,6 @@ img {
   width: 89%;
   margin: auto;
 }
-@media mobile {
-  .topHead .topHead {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    margin: 0 auto;
-  }
-  .topHead nav {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-}
 .topHead a {
   padding-left: 25px;
   font-size: 2rem;
@@ -198,17 +185,15 @@ img {
   border-bottom: 2px dashed #C0C0C0;
   width: 100%;
 }
-@media mobile {
-  .topHead {
+@media (max-width: 500px) {
+  .container .topHead {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin: 0 auto;
   }
-  nav {
+  .container nav {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    justify-content: space-evenly;
   }
 }
 .footer {
@@ -221,6 +206,59 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+@media (max-width: 500px) {
+  .home .contentWelcome {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-bottom: 2px dashed #C0C0C0;
+  }
+  .home #sect2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+  }
+  .home #sect2 .text-content {
+    width: 100%;
+  }
+  .home #sect2 .img-content {
+    width: 100%;
+  }
+  .home #sect3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: center;
+  }
+  .home #sect3 .text-content {
+    width: 100%;
+  }
+  .home #sect3 .img-content {
+    width: 100%;
+  }
+  .home #sect4 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    align-content: center;
+    padding: 10px;
+    margin-top: 6px;
+  }
+  .home #pick {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+  }
+  .home #pick .destination {
+    width: 100%;
+  }
+  .home #pick .destination button {
+    width: 90%;
+  }
 }
 .home .content-section {
   display: flex;
@@ -259,7 +297,6 @@ img {
 .home .content-destination img {
   border-radius: 10px;
   padding-top: 21px;
-  padding-bottom: 28px;
 }
 .home .content-pick {
   padding-top: 30px;
