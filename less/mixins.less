@@ -1,1 +1,30 @@
 // Mixins in here
+
+.center(){
+    width:89%;
+    margin:auto;
+  }
+
+.dashedLine(){
+    border-bottom: 2px dashed @color-line;
+}
+
+.topPad(){
+   margin-top: 20px;
+}
+
+.myButton(@fontColor:white, @fontSize: 2rem ){
+    background-color: @eastern-blue;
+    color:@fontColor;
+    font-size: @fontSize;
+    width: 170px;
+    border-radius: 10px;
+    margin: 0 10px 20px;
+    
+    height: 45px;
+}
+.flexing(){
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
